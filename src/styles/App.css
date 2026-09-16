@@ -1,0 +1,29 @@
+.portfolio-layout {
+  display: grid;
+
+  grid-template-columns:
+    var(--profile-sidebar-width)
+    minmax(0, 1fr)
+    var(--projects-sidebar-width);
+
+  min-height: 100vh;
+}
+
+.profile-sidebar {
+  padding: var(--space-xl);
+
+  background: var(--color-sidebar);
+  color: var(--color-text-dark);
+}
+
+.main-content {
+  width: 100%;
+  max-width: var(--content-max-width);
+
+  padding: var(--space-2xl);
+  margin-inline: auto;
+}
+
+.projects-sidebar {
+  padding: var(--space-2xl) var(--space-lg);
+}
