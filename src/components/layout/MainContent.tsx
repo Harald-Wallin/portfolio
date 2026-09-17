@@ -1,7 +1,13 @@
+import ProfileSummary from "../profile/ProfileSummary";
+import CareerFacts from "../profile/CareerFacts";
+import PresentationVideo from "../profile/PresentationVideo";
+
 export default function MainContent() {
   return (
     <main className="main-content">
-      <h1>Main Content</h1>
+      <ProfileSummary />
+      <CareerFacts />
+      <PresentationVideo />
     </main>
   );
 }
